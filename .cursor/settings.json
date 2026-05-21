@@ -1,0 +1,57 @@
+{
+  "plugins": {
+    "superpowers": {
+      "enabled": true,
+      "skillAllowlist": [
+        "document-release",
+        "document-generate",
+        "qa",
+        "qa-only",
+        "review",
+        "autoplan",
+        "browse",
+        "learn"
+      ]
+    }
+  },
+  "gstack": {
+    "mode": "restricted",
+    "allowedSkills": [
+      "document-release",
+      "document-generate",
+      "qa",
+      "qa-only",
+      "review"
+    ],
+    "blockedSkills": [
+      "office-hours",
+      "plan-ceo-review",
+      "plan-eng-review",
+      "plan-design-review",
+      "plan-devex-review",
+      "design-consultation",
+      "design-shotgun",
+      "design-html",
+      "design-review",
+      "ship",
+      "land-and-deploy",
+      "canary",
+      "benchmark",
+      "open-gstack-browser",
+      "setup-browser-cookies",
+      "setup-deploy",
+      "setup-gbrain",
+      "sync-gbrain",
+      "retro",
+      "investigate",
+      "codex",
+      "cso",
+      "pair-agent",
+      "careful",
+      "freeze",
+      "guard",
+      "unfreeze",
+      "gstack-upgrade"
+    ]
+  }
+}
